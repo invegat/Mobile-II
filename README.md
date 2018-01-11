@@ -110,6 +110,7 @@ Returns the user that the JWT is associated with.
 [POST] `/todos` - Requires a JWT header called `authorization`.
 The body should have a `text` property that is a String.
 A new todo item will be added to the user's todos array that's associated with the JWT.
+Returns the user from the user's info 
 
 [PUT] `/todos/:todoId` - Requires a JWT header called `authorization`.
 Toggles the specified todo object's `completed` property to either true or false.
